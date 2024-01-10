@@ -1,37 +1,20 @@
-/* color palette partly from <https://github.com/vuejs/theme> */
-
+/* color palette from <https://github.com/vuejs/theme> */
 :root {
-  --color-background: var(--vt-c-white);
-  --color-background-soft: var(--vt-c-white-soft);
-  --color-background-mute: var(--vt-c-white-mute);
+  --Nav-Height: 4rem;
+  --is-dark: 0;
+  --bg-color: var(--white);
+  --outline-color: var(--dark);
 
-  --color-border: var(--vt-c-divider-light-2);
-  --color-border-hover: var(--vt-c-divider-light-1);
-
-  --color-heading: var(--vt-c-text-light-1);
-  --color-text: var(--vt-c-text-light-1);
-
-  --section-gap: 160px;
+  --white: white;
+  --dark: #222;
 }
 
-
 body {
-  min-height: 100vh;
-  color: var(--color-text);
-  background: var(--color-background);
-
-  font-family:
-    Inter,
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    Oxygen,
-    Ubuntu,
-    Cantarell,
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
-  font-size: 15px;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: var(--bg-color);
+  color: var(--outline-color);
+  
 }

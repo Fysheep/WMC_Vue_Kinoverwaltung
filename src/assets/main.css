@@ -1,3 +1,17 @@
 @import './base.css';
 
+#CONTENT {
+  padding: 1rem;
+}
 
+.w100 {
+  width: 100%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.pad-1 {
+  padding: 1rem;
+}
